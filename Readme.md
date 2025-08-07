@@ -47,25 +47,56 @@ Output:
 ## Exercise 5: `indexOf()` - Finding a Character or a Substring
 
 1. Prediction: What do you think will be the output?
-
+   - index of fox: 17
+   - index of z: 34
+   - index of cat: -1 because there is no cat
 2. Observation: Now, run the code. What is the actual output?
-
+   ```
+   Index of 'fox': 16
+   Index of 'z': 37
+   Index of 'cat': -1
+   ```
+   - My prediction on the first index was incorrect as I counted with 1 as the start not with zero-based index counting
+   - the 34 as the count was a miscount on where the start of the 'z' on lazy is 
+   - the prediction for the cat was correct, because no occurence of cat is on the string
+Output:
+![](ss-ex5.png)
+   
 ## Exercise 6: `equals()` vs `equalsIgnoreCase()` - Comparing Strings
 
 1. Prediction: What do you think will be the output?
-
+   - false
+   - true
+   - true
 2. Observation: Now, run the code. What is the actual output?
-
+   ```
+   "Java".equals("java"): false
+   "Java".equals("Java"): true
+   "Java".equalsIgnoreCase("java"): true
+   ```
+Output: 
+![](ss-ex6.png)
 ## Exercise 7: `replace()` - Replacing Characters
 
 1. Prediction: What do you think will be the output?
-
+   - I like dogs. Cats are cute
 2. Observation: Now, run the code. What is the actual output?
-
+   ```
+   Original: I like cats. Cats are cute.
+   Replaced: I like dogs. Cats are cute.
+   ```
+![](ss-ex7.png)   
 ## Exercise 8: `trim()` - Removing Whitespace
 
 1. Prediction: What do you think will be the output?
-
+   - not trimmed padded length: 20
+   - 'Lotsofspaces'
+   - 14
 2. Observation: Now, run the code. What is the actual output?
-
+```
+Padded string length: 20
+Trimmed string: 'Lots of spaces'
+Trimmed string length: 14
+```
+![](ss-ex8.png)
 

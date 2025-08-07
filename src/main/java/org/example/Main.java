@@ -30,9 +30,39 @@ public class Main {
         System.out.println("Lowercase: " + lower);
 
         // Exercise 5: `indexOf()` - Finding a Character or a Substring
+        String sentence = "The quick brown fox jumps over the lazy dog.";
+        int indexOfFox = sentence.indexOf("fox");
+        int indexOfZ = sentence.indexOf('z');
+        int indexOfCat = sentence.indexOf("cat");
+        System.out.println("Index of 'fox': " + indexOfFox);
+        System.out.println("Index of 'z': " + indexOfZ);
+        System.out.println("Index of 'cat': " + indexOfCat);
 
         // Exercise 6: `equals()` vs `equalsIgnoreCase()` - Comparing Strings
+
+        String str1 = "Java";
+        String str2 = "java";
+        String str3 = "Java";
+
+        boolean isEqual1 = str1.equals(str2);
+        boolean isEqual2 = str1.equals(str3);
+        boolean isEqualIgnoreCase = str1.equalsIgnoreCase(str2);
+
+        System.out.println("\"Java\".equals(\"java\"): " + isEqual1);
+        System.out.println("\"Java\".equals(\"Java\"): " + isEqual2);
+        System.out.println("\"Java\".equalsIgnoreCase(\"java\"): " + isEqualIgnoreCase);
+
+
         // Exercise 7: `replace()` - Replacing Characters
+        String original = "I like cats. Cats are cute.";
+        String replaced = original.replace("cats", "dogs");
+        System.out.println("Original: " + original);
+        System.out.println("Replaced: " + replaced);
         // Exercise 8: Exercise 8: `trim()` - Removing Whitespace
+        String padded = "   Lots of spaces   ";
+        String trimmed = padded.trim();
+        System.out.println("Padded string length: " + padded.length());
+        System.out.println("Trimmed string: '" + trimmed + "'");
+        System.out.println("Trimmed string length: " + trimmed.length());
     }
 }
