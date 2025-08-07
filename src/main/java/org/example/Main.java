@@ -4,14 +4,24 @@ package org.example;
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-        // to see how IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
+        // Exercise 1: length, finding the String size
 
-        for (int i = 1; i <= 5; i++) {
-            //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-            // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-            System.out.println("i = " + i);
-        }
+        String greeting = "Hello, Cadets!";
+        int length = greeting.length();
+        System.out.println("The length of the string is:"+ length);
+
+        //Exercise 2 - charAt() - Accessing a Character
+
+        String message = "Keep Learning!";
+        char character = message.charAt(5);
+        System.out.println("The character is: "+ character);
+
+        //Exercise 3 - substring() - Extracting a Part of a String
+
+        String statement = "Java is powerful.";
+        String part = statement.substring(5, 7);
+        System.out.println("The extracted substring is: " + part);
+
+
     }
 }

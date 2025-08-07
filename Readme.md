@@ -19,13 +19,18 @@ Output:
 
 2. Observation: Now, run the code. What is the actual output?
    -  "L"
-
+Output:
+![](ss-ex2.png)
 ## Exercise 3: `substring()` - Extracting a Part of a String
 
-1. Prediction: What do you think will be the output?
+1. Prediction: What do you think will be the output? 
+   - it will be "is ", the substring gets the first parameter int given up until the last of character within the range
+   - 
 
 2. Observation: Now, run the code. What is the actual output?
-
+   - "is "
+   
+![](ss-ex3.png)
 ## Exercise 4: `tuUpperCase()` and `toLowerCase()` - Changing Case
 
 1. Prediction: What do you think will be the output?
