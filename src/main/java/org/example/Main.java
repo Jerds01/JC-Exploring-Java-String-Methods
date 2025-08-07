@@ -22,6 +22,17 @@ public class Main {
         String part = statement.substring(5, 7);
         System.out.println("The extracted substring is: " + part);
 
+        // Exercise 4: `tuUpperCase()` and `toLowerCase()` - Changing Case
+        String mixedCase = "This Is A Test";
+        String upper = mixedCase.toUpperCase();
+        String lower = mixedCase.toLowerCase();
+        System.out.println("Uppercase: " + upper);
+        System.out.println("Lowercase: " + lower);
 
+        // Exercise 5: `indexOf()` - Finding a Character or a Substring
+
+        // Exercise 6: `equals()` vs `equalsIgnoreCase()` - Comparing Strings
+        // Exercise 7: `replace()` - Replacing Characters
+        // Exercise 8: Exercise 8: `trim()` - Removing Whitespace
     }
 }
